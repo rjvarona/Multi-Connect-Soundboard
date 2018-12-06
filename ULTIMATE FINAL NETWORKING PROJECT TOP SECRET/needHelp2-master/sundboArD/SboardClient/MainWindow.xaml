@@ -1,0 +1,42 @@
+﻿<Window x:Class="SBoardClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:SBoardClient.ViewModels"
+        Title="Subscribe To PewDiePie" Height="370.925" Width="522.011">
+    <Window.DataContext>
+        <my:SBoardViewModel />
+    </Window.DataContext>
+
+    <Grid Margin="10,0,-8,-2"   >
+        <Grid.Background>
+
+            <ImageBrush x:Name="pewds2" ImageSource="C:\Users\rjvar\Desktop\schoolF18\ULTIMATE FINAL NETWORKING PROJECT TOP SECRET\needHelp2-master\sundboArD\SboardClient\img\pewdiepie.jpg" Stretch="UniformToFill"/>
+
+        </Grid.Background>
+        <!--<Image x:Name="pewds" Source="./pewdiepie.jpg" Stretch="UniformToFill"></Image>-->
+
+        <TextBox Margin="8,10,0,10" TextWrapping="Wrap" Text="{Binding MessageBoard}" ScrollViewer.CanContentScroll="True" VerticalScrollBarVisibility="Auto" TextChanged="TextBox_TextChanged_1" HorizontalAlignment="Left" Width="88"/>
+        <Button Content="Connect" Command="{Binding ConnectCommand}" Margin="199,38,0,0" Height="32" VerticalAlignment="Top" HorizontalAlignment="Left" Width="109"/>
+        <Button x:Name="China2" Content="Bruh" Command ="{Binding China2}"    IsEnabled="False" HorizontalAlignment="Left" Margin="101,93,0,0" VerticalAlignment="Top" Width="58" Height="20" Click="China_Click" RenderTransformOrigin="2.121,0.483"/>
+        <Button x:Name="BingBong"  Command ="{Binding BingBong2}" Content="BingBong"    IsEnabled="False" HorizontalAlignment="Left" Margin="185,93,0,0" VerticalAlignment="Top" Width="58" Height="20" Click="China_Click" RenderTransformOrigin="2.121,0.483"/>
+        <Button x:Name="Wrong"  Command ="{Binding Wrong2}" Content="Another1"    IsEnabled="False" HorizontalAlignment="Left" Margin="276,93,0,0" VerticalAlignment="Top" Width="58" Height="20" Click="China_Click" RenderTransformOrigin="2.121,0.483"/>
+        <Button x:Name="GreatWall"  Command ="{Binding GreatWall2}" Content="Titanic"    IsEnabled="False" HorizontalAlignment="Left" Margin="370,93,0,0" VerticalAlignment="Top" Width="58" Height="20" Click="China_Click" RenderTransformOrigin="2.121,0.483"/>
+        <Button x:Name="ReallyRich"  Command ="{Binding ReallyRich2}" Content="AirHorn"    IsEnabled="False" HorizontalAlignment="Left" Margin="101,169,0,0" VerticalAlignment="Top" Width="58" Height="20" Click="China_Click" RenderTransformOrigin="2.121,0.483"/>
+        <Button x:Name="FakeNews"  Command ="{Binding FakeNews2}" Content="FakeNews"    IsEnabled="False" HorizontalAlignment="Left" Margin="185,169,0,0" VerticalAlignment="Top" Width="58" Height="20" Click="China_Click" RenderTransformOrigin="2.121,0.483"/>
+        <Button x:Name="BuildWall"  Command ="{Binding BuildWall}" Content="heYeaYeaYEE"    IsEnabled="False" HorizontalAlignment="Left" Margin="101,200,0,0" VerticalAlignment="Top" Width="142" Height="64" Click="China_Click" RenderTransformOrigin="2.121,0.483"/>
+        <Button x:Name="Fired"  Command ="{Binding Fired2}" Content="DaWay"    IsEnabled="False" HorizontalAlignment="Left" Margin="276,169,0,0" VerticalAlignment="Top" Width="58" Height="20" Click="China_Click" RenderTransformOrigin="2.121,0.483"/>
+        <Button x:Name="Random"  Command ="{Binding Random}" Content="ToBeCont.."    IsEnabled="False" HorizontalAlignment="Left" Margin="370,169,0,0" VerticalAlignment="Top" Width="65" Height="20" Click="China_Click" RenderTransformOrigin="2.121,0.483"/>
+        <Button x:Name="Havana"  Command ="{Binding Havana}" Content="TakeOnMe"    IsEnabled="False" HorizontalAlignment="Left" Margin="276,200,0,0" VerticalAlignment="Top" Width="142" Height="64" Click="China_Click" RenderTransformOrigin="2.121,0.483"/>
+        <Rectangle x:Name="ChinaBox"  Fill="{Binding China}" HorizontalAlignment="Left" Height="13" Margin="123,75,0,0" Stroke="Black" VerticalAlignment="Top" Width="14" RenderTransformOrigin="2.929,1.026"/>
+        <Rectangle x:Name="ChinaBox_Copy"  Fill="{Binding BingBong}" HorizontalAlignment="Left" Height="13" Margin="206,75,0,0" Stroke="Black" VerticalAlignment="Top" Width="14" RenderTransformOrigin="2.929,1.026"/>
+        <Rectangle x:Name="ChinaBox_Copy1"  Fill="{Binding Wrong}" HorizontalAlignment="Left" Height="13" Margin="294,75,0,0" Stroke="Black" VerticalAlignment="Top" Width="14" RenderTransformOrigin="2.929,1.026"/>
+        <Rectangle x:Name="ChinaBox_Copy2"  Fill="{Binding GreatWall}" HorizontalAlignment="Left" Height="13" Margin="389,75,0,0" Stroke="Black" VerticalAlignment="Top" Width="14" RenderTransformOrigin="2.929,1.026"/>
+        <Rectangle x:Name="ChinaBox_Copy3"  Fill="{Binding ReallyRich}" HorizontalAlignment="Left" Height="13" Margin="123,151,0,0" Stroke="Black" VerticalAlignment="Top" Width="14" RenderTransformOrigin="2.929,1.026"/>
+        <Rectangle x:Name="ChinaBox_Copy4"  Fill="{Binding FakeNews}" HorizontalAlignment="Left" Height="13" Margin="206,151,0,0" Stroke="Black" VerticalAlignment="Top" Width="14" RenderTransformOrigin="2.929,1.026"/>
+        <Rectangle x:Name="ChinaBox_Copy5"  Fill="{Binding Fired}" HorizontalAlignment="Left" Height="13" Margin="294,151,0,0" Stroke="Black" VerticalAlignment="Top" Width="14" RenderTransformOrigin="2.929,1.026"/>
+        <Rectangle x:Name="ChinaBox_Copy6"  Fill="{Binding RandomNoise}" HorizontalAlignment="Left" Height="13" Margin="389,151,0,0" Stroke="Black" VerticalAlignment="Top" Width="14" RenderTransformOrigin="2.929,1.026"/>
+        <Rectangle x:Name="ChinaBox_Copy7"  Fill="{Binding BuildWalls}" HorizontalAlignment="Left" Height="13" Margin="159,269,0,0" Stroke="Black" VerticalAlignment="Top" Width="14" RenderTransformOrigin="2.929,1.026"/>
+        <Rectangle x:Name="ChinaBox_Copy8"  Fill="{Binding Havanas}" HorizontalAlignment="Left" Height="13" Margin="343,269,0,0" Stroke="Black" VerticalAlignment="Top" Width="14" RenderTransformOrigin="2.929,1.026"/>
+
+    </Grid>
+</Window>
