@@ -10,7 +10,7 @@
     <Grid Margin="10,0,-8,-2"   >
         <Grid.Background>
 
-            <ImageBrush x:Name="pewds2" ImageSource="C:\Users\rjvar\Desktop\schoolF18\ULTIMATE FINAL NETWORKING PROJECT TOP SECRET\needHelp2-master\sundboArD\SboardClient\img\pewdiepie.jpg" Stretch="UniformToFill"/>
+            <ImageBrush x:Name="pewds2" ImageSource="../../img/pewdiepie.jpg" Stretch="UniformToFill"/>
 
         </Grid.Background>
         <!--<Image x:Name="pewds" Source="./pewdiepie.jpg" Stretch="UniformToFill"></Image>-->
