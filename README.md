@@ -9,7 +9,8 @@ goto: https://www.youtube.com/watch?v=4_4Qy8zlrQk
 <h2>Deployment </h2>
 Tools Needed: Visual Studio 2017 and UP, .NET WPF
 <br/>
-Change which project to run by selecting the properties of the project.
+ <p>Change which project to run by selecting the properties of the project.</P>
+ <br/>
 <img src="screenshots/changedeployment.gif">
 Running the application: Hit the play button at the top.
 <img src="screenshots/runappp.gif">
