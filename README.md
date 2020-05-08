@@ -5,12 +5,11 @@ memeBoard
 The goal of this product is to create a mult-connect soundboard that shares meme sounds between two computers through a network. 
 '''
 
-Technologies
-
+<h2>Technologies</h2>
 '''
 .NET WPF
 '''
-Deployment
+<h2>Live Demo </h2>
 '''
-.NET WPF
+goto: https://www.youtube.com/watch?v=4_4Qy8zlrQk
 '''
